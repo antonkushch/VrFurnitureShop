@@ -1174,10 +1174,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Simple white chair
+  m_Text: 'KNISLINGE Sofa
 
 
-    <b>Buy</b> for 200 bucks'
+    <b>Buy</b> for 359 bucks'
 --- !u!222 &871674588
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1434,10 +1434,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Simple white chair
+  m_Text: 'Hudson Bellona Functional Sofa In A Box
 
 
-    <b>Buy</b> for 200 bucks'
+    <b>Buy</b> for 499 bucks'
 --- !u!222 &921699897
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1598,7 +1598,7 @@ Prefab:
     - target: {fileID: 114089242815406320, guid: 7d075350a2aae014baaf93354d627faf,
         type: 2}
       propertyPath: NextSceneName
-      value: DreamTwo
+      value: Showroom2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d075350a2aae014baaf93354d627faf, type: 2}
@@ -1835,7 +1835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9d7b43483395d42a4775bfb945ba37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=divan
+  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=sofa-2
 --- !u!114 &1160477411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1959,7 +1959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9d7b43483395d42a4775bfb945ba37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=divan
+  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=sofa-1
 --- !u!114 &1248236706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2160,6 +2160,9 @@ GameObject:
   - component: {fileID: 1284294385}
   - component: {fileID: 1284294384}
   - component: {fileID: 1284294383}
+  - component: {fileID: 1284294388}
+  - component: {fileID: 1284294387}
+  - component: {fileID: 1284294386}
   m_Layer: 0
   m_Name: buyButton
   m_TagString: Untagged
@@ -2224,7 +2227,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1284294384}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1284294388}
+        m_MethodName: Open
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1284294384
@@ -2260,6 +2274,54 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1284294381}
+--- !u!114 &1284294386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1284294381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!223 &1284294387
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1284294381}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &1284294388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1284294381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9d7b43483395d42a4775bfb945ba37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=sofa-3
 --- !u!1 &1307822214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,10 +2454,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Two comfortable chairs
+  m_Text: 'Sands Upholstered Bench
 
 
-    <b>Buy</b> for 300 bucks'
+    <b>Buy</b> for 219 bucks'
 --- !u!222 &1411804982
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2469,10 +2531,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Simple white chair
+  m_Text: 'Zenree Living Room Chair
 
 
-    <b>Buy</b> for 200 bucks'
+    <b>Buy</b> for 54 bucks'
 --- !u!222 &1497373189
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3075,7 +3137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9d7b43483395d42a4775bfb945ba37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=divan
+  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=sofa-4
 --- !u!114 &2082760562
 MonoBehaviour:
   m_ObjectHideFlags: 0

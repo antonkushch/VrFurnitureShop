@@ -632,10 +632,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Two comfortable chairs
+  m_Text: 'Closet & Co 96 L Custom Closet System
 
 
-    <b>Buy</b> for 300 bucks'
+    <b>Buy</b> for 1299 bucks'
 --- !u!222 &533011976
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -709,10 +709,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Simple white chair
+  m_Text: 'MartCrown Baby Chair Solid Wood Living Room Chair
 
 
-    <b>Buy</b> for 200 bucks'
+    <b>Buy</b> for 49 bucks'
 --- !u!222 &575558319
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -987,6 +987,11 @@ Prefab:
     - target: {fileID: 1852323863316706, guid: 7d075350a2aae014baaf93354d627faf, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114089242815406320, guid: 7d075350a2aae014baaf93354d627faf,
+        type: 2}
+      propertyPath: NextSceneName
+      value: Showroom2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d075350a2aae014baaf93354d627faf, type: 2}
@@ -1652,7 +1657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9d7b43483395d42a4775bfb945ba37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=divan
+  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=closet-2
 --- !u!114 &928612042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1805,10 +1810,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Simple white chair
+  m_Text: 'SpaceCreations 56 W - 127 W Closet
 
 
-    <b>Buy</b> for 200 bucks'
+    <b>Buy</b> for 979 bucks'
 --- !u!222 &939033709
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2117,7 +2122,7 @@ Prefab:
     - target: {fileID: 114089242815406320, guid: 7d075350a2aae014baaf93354d627faf,
         type: 2}
       propertyPath: NextSceneName
-      value: DreamOne
+      value: Showroom1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d075350a2aae014baaf93354d627faf, type: 2}
@@ -2388,7 +2393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9d7b43483395d42a4775bfb945ba37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=divan
+  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=chair-1
 --- !u!114 &1568230077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2561,7 +2566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9d7b43483395d42a4775bfb945ba37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=divan
+  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=closet-3
 --- !u!114 &1582728691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3005,10 +3010,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Simple white chair
+  m_Text: 'BRIMNES Closet
 
 
-    <b>Buy</b> for 200 bucks'
+    <b>Buy</b> for 289 bucks'
 --- !u!222 &1914546689
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3151,7 +3156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9d7b43483395d42a4775bfb945ba37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Url: 
+  Url: https://script.google.com/macros/s/AKfycbyUtgh7nUekIRMGbpaHXUrf4UMAWPGh0LLs9aeriq21RMVL9wg/exec?productName=closet-1
 --- !u!114 &1927782986
 MonoBehaviour:
   m_ObjectHideFlags: 0

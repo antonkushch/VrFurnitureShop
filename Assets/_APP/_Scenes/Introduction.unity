@@ -252,7 +252,7 @@ Prefab:
     - target: {fileID: 114089242815406320, guid: 7d075350a2aae014baaf93354d627faf,
         type: 2}
       propertyPath: NextSceneName
-      value: DreamOne
+      value: Showroom1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d075350a2aae014baaf93354d627faf, type: 2}
